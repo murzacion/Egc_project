@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: ed80d7b1787e0e941a8a73b3494845fd
+  - enabled: 1
+    path: Assets/Scenes/CheesGame2.unity
+    guid: 99d8f8c4bd80cda4aad63b7d190cdb64
+  - enabled: 1
+    path: Assets/Scenes/AboutScene.unity
+    guid: 328dabd361c2a5c40842ab8b07005beb
   m_configObjects: {}
