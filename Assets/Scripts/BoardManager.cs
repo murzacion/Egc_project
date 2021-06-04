@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 public class BoardManager : MonoBehaviour
 {
     public static BoardManager Instance { get; set; }
@@ -267,10 +268,10 @@ public class BoardManager : MonoBehaviour
     {
         if (isWhiteTurn)
         {
-            Debug.Log("White team wins");
+           SceneManager.LoadScene(3);
         } else
         {
-            Debug.Log("Black teams wins");
+            SceneManager.LoadScene(4);
         }
         isWhiteTurn = true;
         foreach (GameObject go in activechessman)
